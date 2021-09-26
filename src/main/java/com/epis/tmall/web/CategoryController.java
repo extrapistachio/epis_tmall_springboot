@@ -1,7 +1,7 @@
 package com.epis.tmall.web;
 
 import com.epis.tmall.pojo.Category;
-import com.epis.tmall.sevice.CategoryService;
+import com.epis.tmall.service.CategoryService;
 import com.epis.tmall.util.ImageUtil;
 import com.epis.tmall.util.Page4Navigator;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,11 +10,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 @RestController
 public class CategoryController {

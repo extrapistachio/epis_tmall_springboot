@@ -1,4 +1,4 @@
-package com.epis.tmall.sevice;
+package com.epis.tmall.service;
 
 import com.epis.tmall.dao.CategoryDAO;
 import com.epis.tmall.pojo.Category;
@@ -9,8 +9,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import com.epis.tmall.dao.CategoryDAO;
-import com.epis.tmall.pojo.Category;
 
 import java.util.List;
 
